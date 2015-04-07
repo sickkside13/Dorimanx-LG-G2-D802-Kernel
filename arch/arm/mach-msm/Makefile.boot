@@ -118,6 +118,21 @@ else ifneq ($(CONFIG_DTS_TARGET),"")
 	dtb-$(CONFIG_MACH_MSM8974_Z_KR)        += msm8974-z-kr.dtb
         dtb-$(CONFIG_MACH_MSM8974_Z_KR)        += msm8974-v2-z-kr.dtb
         dtb-$(CONFIG_MACH_MSM8974_Z_KR)        += msm8974-v2-2-z-kr.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_TMO_US)        += msm8974-z-tmo.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_TMO_US)        += msm8974-v2-z-tmo.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_TMO_US)        += msm8974-v2-2-z-tmo.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_SPR)        += msm8974-z-spr.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_SPR)        += msm8974-v2-z-spr.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_SPR)        += msm8974-v2-2-z-spr.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_ATT_US)        += msm8974-z-att.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_ATT_US)        += msm8974-v2-z-att.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_ATT_US)        += msm8974-v2-2-z-att.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_OPEN_COM)        += msm8974-z-open_com.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_OPEN_COM)        += msm8974-v2-z-open_com.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_OPEN_COM)        += msm8974-v2-2-z-open_com.dtb        
+        dtb-$(CONFIG_MACH_MSM8974_Z_CTC_CN)        += msm8974-z-ctc.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_CTC_CN)        += msm8974-v2-z-ctc.dtb
+        dtb-$(CONFIG_MACH_MSM8974_Z_CTC_CN)        += msm8974-v2-2-z-ctc.dtb
 endif
 
 # APQ8084
